@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+  
+  <nav class="blue">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">MySite</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  
+  <div class="container section">
+    <h4>Welcome to Our Landing Page</h4>
+
+    
+    <table class="highlight responsive-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>mansoor</td>
+          <td>Developer</td>
+          
+        </tr>
+        <tr>
+          <td>ahmed</td>
+          <td>Designer</td>
+          
+        </tr>
+      
+      </tbody>
+    </table>
+
+    
+    <div class="section">
+      <a class="waves-effect waves-light btn blue">Learn More</a>
+      <a class="waves-effect waves-light btn green">Sign Up</a>
+    </div>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+</body>
+</html>
