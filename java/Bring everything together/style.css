@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: aquamarine;
+    border-radius:20px  20px 20px 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+p {
+    
+    margin: 30px;
+    text-align: center;
+    padding: 10px 10px;
+    height: inherit;
+    background-color: rgb(206, 195, 196);
+    color: rgb(5, 6, 6);
+    border-radius:20px  20px 20px 20px;
+ 
+}
+div{
+    background-color: bisque;
+    text-align: center;
+  
+
+
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius:10px  10px 10px 10px;
+    text-align: center;
+    display: inline;
+
+}
+#greeting {
+    color: rgb(7, 6, 1);
+}
