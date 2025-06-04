@@ -1,0 +1,37 @@
+/* Dark mode class */
+body.bg-dark {
+    background-color: #121212;
+    color: white;
+}
+
+/* Form styling */
+#my-form {
+    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button background when clicked */
+.btn.clicked {
+    background-color: darkblue;
+}
+
+/* List item styling */
+ul.items li {
+    list-style: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
