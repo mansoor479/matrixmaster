@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+}
+
+.div1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+.div2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+}
