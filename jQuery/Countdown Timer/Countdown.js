@@ -38,4 +38,24 @@ $(function(){
   $('#reset').click(resetTimer);
 
   render(totalSeconds);
+  function editTimer() {
+    const h = Math.floor(totalSeconds / 3600);
+    const m = Math.floor((totalSeconds % 3600) / 60);
+    const s = totalSeconds % 60;
+    $('#hours').val(h);
+    $('#minutes').val(m);
+    $('#seconds').val(s);
+    $('#edit-form').show();
+  }
+  function saveEdit() {
+    const h = parseInt($('#hours').val()) || 0;
+    const m = parseInt($('#minutes').val()) || 0;
+    const s = parseInt($('#seconds').val()) || 0;
+    totalSeconds = initialSeconds = h * 3600 + m * 60 + s;
+    render(totalSeconds);
+    $('#edit-form').hide();
+  }
+  $('#edit').click(editTimer);
+  $('#save').click(saveEdit);
+
 });
